@@ -1,58 +1,98 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Basic Portfolio</title>
+    <title>AW Basic Portfolio</title>
     <link rel="stylesheet" href="assets/css/portfolio.css">
-
-    <header>
-        <div class="topnav">
-                <a class="active" href="index.html">Ashley Wang</a>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-        </div>
-    </header>
 </head>
 
-<style>
-img {
-    border: 1px solid #ddd; /* Gray border */
-    border-radius: 4px;  /* Rounded border */
-    padding: 5px; /* Some padding */
-    width: 150px; /* Set a small width */
-}
-
-/* Add a hover effect (blue shadow) */
-img:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-</style>
 <body>
-
-<a target="_blank" href="img_forest.jpg">
-  <img src="assets/images/Profile-Pic.jpg" alt="Me">
-</a>
-
-    <div class="row">
-        <div class="column">
-          <div class="content">
-            <img src="mountains.jpg" alt="Mountains" style="width:100%">
-            <h3>My Work</h3>
-            <p>Lorem ipsum..</p>
-          </div>
+    <header>
+            <div class= "nav">
+                <ul>
+                    <li><a id="AW" href="index.html">Ashley Wang</a></li>
+            <div class= "rnav">
+                    <li><a id= "cont" href="contact.html" style="text-decoration: none">Contact</a></li>
+                    <li><a id= "port" href="portfolio.html" style="text-decoration: none">Portfolio</a></li>
+                    <li><a id= "index" href="index.html" style="text</li>-decoration: none">About</a></li>
         </div>
-        <div class="column">
-          <div class="content">
-            <img src="lights.jpg" alt="Lights" style="width:100%">
-            <h3>My Work</h3>
-            <p>Lorem ipsum..</p>
-          </div>
+            </ul>
         </div>
-    </div>
+    </header>
+
+    <style>
+        img {
+            border: 1px solid #ddd;
+            border-radius: 4px;  
+            width: 200px;
+        }
+        img:hover {
+            box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+        }
+        </style>
+
+    <div class= "Content">
+        <h1 class= "PortfolioTitle">Portfolio</h1>
+        <hr>
+            <div class="row">
+                <div class="column">
+                    <div class="picture">
+                        <a target="_blank" href="assets/images/Adjective2.jpg">
+                        <img src="assets/images/Adjective2.jpg" alt="WordsImage" style="width:100%">
+                        </a>
+                        <div class= "text">
+                            <h3>My Work</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="picture">
+                        <a target="_blank" href="assets/images/Cast Logo.jpg">
+                        <img src="assets/images/Cast Logo.jpg" alt="Logo" style="width:100%">
+                        </a>
+                        <div class= "text">
+                            <h3>My Work</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="picture">
+                        <a target="_blank" href="assets/images/Wang_Quote2.jpg">                        
+                        <img src="assets/images/Wang_Quote2.jpg" alt="QuoteImage" style="width:100%">
+                        </a>
+                        <div class= "text">
+                            <h3>My Work</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="picture">
+                        <a target="_blank" href="assets/images/Letter E.jpg">
+                        <img src="assets/images/Letter E.jpg" alt="LetterEImage" style="width:100%">
+                        </a>
+                        <div class= "text">
+                            <h3>My Work</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="picture">
+                            <a target="_blank" href="assets/images/Invitation.jpg">
+                        <img src="assets/images/Invitation.jpg" alt="Invitation" style="width:100%">
+                        </a>
+                        <div class= "text">
+                            <h3>My Work</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>  
+
+    <footer>
+        <h3>Copyright &copy;</h3>
+    </footer>
 
 </body>
 </html>

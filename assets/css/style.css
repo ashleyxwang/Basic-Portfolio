@@ -9,7 +9,9 @@ body{
     padding: 0px;
 }
 
+/*navigation bar*/
 .nav{
+    position: fixed;
     background-color: #ffffffb6;
     top: 0;
     width: 100%;
@@ -18,26 +20,23 @@ body{
     border-bottom-width: 3px;
     overflow: hidden;
 }
-
 .nav a:hover{
     background-color: #a4d7d5;
 }
-
 .active{
     background-color: #a4d7d5;
 }
-
 ul{
     margin: 0;
     padding: 0px;
 }
-
 li{
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: inline;
     list-style-type: none;
 }
 
+/*name logo in nav*/
 #AW{
     display: inline-block;
     font-size: 25px;
@@ -50,10 +49,10 @@ li{
     float: left;
 }
 
+/*Right navigation buttons*/
 .rnav{
     margin-right: 15%;
 }
-
 #index,#port,#cont{
     text-decoration: none;
     color: grey;
@@ -64,35 +63,44 @@ li{
     float: right;
     text-align: center;
 }
-
 #cont{
     border-right: none;
 }
 
+/* Page style (typ.) */
 .Content{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ffffffb6;
     height: 500px;
     line-height: 30px;
-    margin: 5% 15%;
+    margin: 11% 15% 4% 15%;
     padding: 30px;
     border-radius: 5px;
 }
 
+/*Profile Picture*/
 .img{
     float: left;
     padding: 7px 30px 20px 0;
 }
 
+/*Title of Page*/
 .ContentTitle{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
 }
 
+/*Link to other portfolio*/
+#pflink{
+    color: #4aaaa5;
+    text-decoration: none;
+}
+
+/*Line under title of page*/
 hr{
     display: block;
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
@@ -102,7 +110,6 @@ hr{
 
 footer{
     font-family: Arial, Helvetica, sans-serif;
-    position: sticky;
     bottom: 0;
     width: 100%;
     height: 5%;
